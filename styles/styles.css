@@ -339,3 +339,116 @@ main .section[data-section-status='initialized'] {
 .cc-btn.cc-save {
   padding: 13px 29px;
 }
+.section.landing-page-container {
+  padding: 0;
+}
+
+.landing-page-wrapper {
+  max-width: 100% !important;
+}
+
+.landing-page.background-page {
+position: relative;
+}
+
+.landing-page-sell {
+position: relative;
+}
+
+.landing-page.background-page  img {
+  width: 100vw !important;
+  height: 90vh !important;
+}
+
+.landing-page-sell  img {
+  width: 100vw !important;
+  height: 90vh !important;
+}
+
+ .landing-page-button-wrapper {
+   display: inline;
+  position: absolute;
+  bottom: 50px;
+  right:100px;
+  width: auto !important;
+   margin: 0 !important;
+   padding: 0 !important;
+
+}
+
+ .landing-page-button-wrapper a {
+  background-color:  #DD175B !important;
+   color: #fff !important;
+   width: 300px !important;
+   border-radius: 300px !important;
+   font: normal normal 900 130px/163px Source Sans Pro;
+   font-size: 25px !important;
+   padding: 10px 0 !important;
+
+ }
+
+.landing-page-description {
+  position: absolute;
+  bottom: 60px;
+  left:100px;
+  width: 587px;
+}
+
+.landing-page-custom-name-background-page {
+  position: absolute;
+  top: 287px;
+  left: 100px;
+  width: 932px;
+  height: 163px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 130px/163px Source Sans Pro;
+  letter-spacing: 0;
+  color: #DD175B;
+  opacity: 1;
+}
+
+.landing-page-year-background-page {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  width: 204px;
+  height: 122px;
+  text-align: left;
+  font: normal normal normal 100px/122px Impact;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.landing-page-collection-background-page {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  top: 580px;
+  left: 100px;
+  height: 63px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 50px/63px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.landing-page-description p {
+  text-align: left;
+  font: normal normal 400 30px/37px Source Sans Pro;
+  letter-spacing: 0;
+  color: #FF71AF;
+  opacity: 1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.landing-page-description-sell {
+    position: absolute;
+    bottom: 60px;
+    left:100px;
+    width: 587px;
+}
+
