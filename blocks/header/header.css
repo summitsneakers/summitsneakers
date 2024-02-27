@@ -148,6 +148,11 @@ header nav .nav-tools {
 
 header nav .nav-tools p {
   margin: 0;
+  line-height: 0;
+}
+
+header nav .nav-tools p:first-child {
+  margin-top: -17px;
 }
 
 header nav .nav-tools .icon {
@@ -204,7 +209,24 @@ header nav[aria-expanded='true'] .nav-tools li {
   }
 
   header nav .nav-brand {
+    display:flex;
+    align-items: center;
     flex: 0 0 350px;
+    margin-left: 65px;
+  }
+
+  header nav .nav-brand .logoname1 {
+    font: normal normal 200 20px/25px Adobe Clean;
+    margin-left: 4px;
+  }
+
+  header nav .nav-brand .logoname {
+    font: normal normal 900 20px/25px Adobe Clean;
+  }
+
+  header nav .nav-brand .logo {
+    max-width: 75px;
+    max-height: 75px;
   }
 
   header nav .nav-sections ul {
