@@ -115,15 +115,16 @@ header nav .nav-sections {
   flex-direction: column;
   display: none;
   background-color: var(--overlay-color);
-  flex: 1 1 auto;
+  flex: 1 1 200px;
 }
 
 header nav .nav-sections ul  {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 200;
+  font-family:'adobe clean';
+  letter-spacing: 4px;
   list-style: none;
   padding-left: 0;
-  gap: 100px;
 }
 
 header nav .nav-sections li {
@@ -144,6 +145,7 @@ header nav .nav-tools {
   flex: 0 0 auto;
   height: 22px;
   gap: 50px;
+  margin-right: 40px;
 }
 
 header nav .nav-tools p {
@@ -232,10 +234,10 @@ header nav[aria-expanded='true'] .nav-tools li {
   header nav .nav-sections ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     background-color: unset;
     width: unset;
     margin: 0;
-    gap: 100px;
   }
 
   header nav[aria-expanded='true'] .nav-sections ol {
@@ -292,6 +294,16 @@ header nav[aria-expanded='true'] .nav-tools li {
     left: 0;
     padding: 16px;
     box-shadow: 0 0 5px var(text-color);
+  }
+}
+
+@media only screen
+and (min-width: 1024px)
+and (max-width: 1200px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  header nav .nav-tools {
+    display: none;
   }
 }
 
