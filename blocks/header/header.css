@@ -36,6 +36,7 @@ header .nav-brand {
   font-size: 22px;
   font-weight: 700;
   line-height: 1em;
+  cursor: pointer;
 }
 
 header nav .nav-brand p {
