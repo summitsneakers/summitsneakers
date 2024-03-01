@@ -32,14 +32,12 @@
 
 .cards-sneakers > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: auto;
   object-fit: cover;
   border-radius: 16px;
 }
 
 .cards-sneakers .cards-sneakers-card-image {
-  border: 50px solid #FFFFFF;
-  border-radius: 19px;
   margin-bottom: 20px;
 }
 
