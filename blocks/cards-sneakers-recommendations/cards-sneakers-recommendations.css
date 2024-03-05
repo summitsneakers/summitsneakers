@@ -28,13 +28,9 @@
 
 .cards-sneakers-recommendations > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: auto;
   object-fit: cover;
   border-radius: 16px;
-}
-
-.cards-sneakers-recommendations .cards-sneakers-recommendations-card-image {
-  padding: 16px;
 }
 
 .cards-sneakers-recommendations.no-crop > ul > li img {
