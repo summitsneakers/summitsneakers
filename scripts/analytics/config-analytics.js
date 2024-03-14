@@ -12,7 +12,7 @@
 
 const configs = {
   tenantId: '_dcbl',
-  edgeConfigId: '51c27813-49ef-44b5-9ba1-72541754d143',
+  edgeConfigId: 'e5ce1c73-0a17-4f09-87a4-1af5ce55cbc6',
   orgId: '6D9FE18C5536A5E90A4C98A6@AdobeOrg',
 };
 
