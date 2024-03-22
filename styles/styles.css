@@ -224,7 +224,7 @@ main input:hover {
 }
 
 main .section {
-  padding: 8px 32px;
+  padding: 8px 16px;
 }
 
 main pre {
@@ -275,6 +275,10 @@ img {
 
   header {
     height: calc(var(--nav-height) + 25px);
+  }
+
+  main .section {
+    padding: 8px 32px;
   }
   /* .section > div {
     max-width: 1200px;
