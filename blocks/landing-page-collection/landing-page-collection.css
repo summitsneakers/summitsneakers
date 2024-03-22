@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  margin-left: 80px;
+  margin-left: 16px;
 }
 
 .rightWrapper {
@@ -47,14 +47,14 @@
 
 .rightWrapper > div:first-child {
   position: absolute;
-  top: -40px;
+  top: -10px;
 }
 
 /*shop btn*/
 .rightWrapper .button-container {
   position: absolute;
-  bottom: 13%;
-  right: 56px;
+  bottom: 3%;
+  right: 16px;
 }
 
 .landing-page-collection .leftWrapper h1 {
@@ -94,7 +94,7 @@
 }
 
 .leftWrapper >div:last-child {
-  margin-top: 80px;
+  margin-top: 15px;
 }
 
 .landing-page-collection .button-container a {
@@ -103,11 +103,11 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  width:  260px;
+  width:  80px;
   border-radius: 300px;
   font-family: 'Adobe Clean';
-  font-size:  18px ;
-  height: 60px;
+  font-size:  10px ;
+  height: 20px;
 }
 
 .landing-page-discount {
@@ -148,4 +148,32 @@
   font-family: sans-serif;
   font-size: 32px;
   font-style: italic;
+}
+
+
+@media (min-width: 1000px) {
+  .leftWrapper {
+    margin-left: 80px;
+  }
+
+  .rightWrapper > div:first-child {
+    top: -40px;
+  }
+
+  .rightWrapper .button-container {
+    right: 56px;
+    bottom: 13%;
+  }
+
+  .landing-page-collection .button-container a {
+    width:  260px;
+    border-radius: 300px;
+    font-family: 'Adobe Clean';
+    font-size:  18px ;
+    height: 60px;
+  }
+
+  .leftWrapper >div:last-child {
+    margin-top: 80px;
+  }
 }

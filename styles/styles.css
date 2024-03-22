@@ -70,7 +70,7 @@ body.appear {
 }
 
 header {
-  height: calc(var(--nav-height) + 25px);
+  height: calc(var(--nav-height));
 }
 
 main {
@@ -273,6 +273,9 @@ img {
     --heading-font-size-xs: 22px;
   }
 
+  header {
+    height: calc(var(--nav-height) + 25px);
+  }
   /* .section > div {
     max-width: 1200px;
     margin: auto;
